@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6483B18716BC33A100E105EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6483B18616BC33A100E105EC /* UIKit.framework */; };
+		6483B18916BC33A100E105EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6483B18816BC33A100E105EC /* Foundation.framework */; };
+		6483B18B16BC33A100E105EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6483B18A16BC33A100E105EC /* CoreGraphics.framework */; };
+		64ACEF9B16BC4E8F00446EBB /* MACircleProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FDDF5916BC4C8A0045C21B /* MACircleProgressIndicator.m */; };
+		64ACEF9C16BC4E8F00446EBB /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FDDF5C16BC4CB50045C21B /* MAAppDelegate.m */; };
+		64ACEF9D16BC4E8F00446EBB /* MAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FDDF5E16BC4CB50045C21B /* MAViewController.m */; };
+		64FDDF6516BC4CCD0045C21B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF5F16BC4CCD0045C21B /* InfoPlist.strings */; };
+		64FDDF6616BC4CCD0045C21B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF6116BC4CCD0045C21B /* MainStoryboard_iPad.storyboard */; };
+		64FDDF6716BC4CCD0045C21B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF6316BC4CCD0045C21B /* MainStoryboard_iPhone.storyboard */; };
+		64FDDF6916BC4CDF0045C21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FDDF6816BC4CDF0045C21B /* main.m */; };
+		64FDDF7016BC4D130045C21B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF6D16BC4D130045C21B /* Default-568h@2x.png */; };
+		64FDDF7116BC4D130045C21B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF6E16BC4D130045C21B /* Default.png */; };
+		64FDDF7216BC4D130045C21B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FDDF6F16BC4D130045C21B /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6483B18316BC33A100E105EC /* MACircleProgressIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACircleProgressIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6483B18616BC33A100E105EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6483B18816BC33A100E105EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6483B18A16BC33A100E105EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64FDDF5816BC4C8A0045C21B /* MACircleProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MACircleProgressIndicator.h; path = MACircleProgressIndicator/MACircleProgressIndicator.h; sourceTree = SOURCE_ROOT; };
+		64FDDF5916BC4C8A0045C21B /* MACircleProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MACircleProgressIndicator.m; path = MACircleProgressIndicator/MACircleProgressIndicator.m; sourceTree = SOURCE_ROOT; };
+		64FDDF5B16BC4CB50045C21B /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MAAppDelegate.h; path = MACircleProgressIndicator/MAAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		64FDDF5C16BC4CB50045C21B /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MAAppDelegate.m; path = MACircleProgressIndicator/MAAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		64FDDF5D16BC4CB50045C21B /* MAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MAViewController.h; path = MACircleProgressIndicator/MAViewController.h; sourceTree = SOURCE_ROOT; };
+		64FDDF5E16BC4CB50045C21B /* MAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MAViewController.m; path = MACircleProgressIndicator/MAViewController.m; sourceTree = SOURCE_ROOT; };
+		64FDDF6016BC4CCD0045C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MACircleProgressIndicator/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		64FDDF6216BC4CCD0045C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MACircleProgressIndicator/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		64FDDF6416BC4CCD0045C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MACircleProgressIndicator/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		64FDDF6816BC4CDF0045C21B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MACircleProgressIndicator/main.m; sourceTree = SOURCE_ROOT; };
+		64FDDF6A16BC4CF40045C21B /* MACircleProgressIndicator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MACircleProgressIndicator-Info.plist"; path = "MACircleProgressIndicator/MACircleProgressIndicator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		64FDDF6C16BC4D090045C21B /* MACircleProgressIndicator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MACircleProgressIndicator-Prefix.pch"; path = "MACircleProgressIndicator/MACircleProgressIndicator-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		64FDDF6D16BC4D130045C21B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MACircleProgressIndicator/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		64FDDF6E16BC4D130045C21B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MACircleProgressIndicator/Default.png; sourceTree = SOURCE_ROOT; };
+		64FDDF6F16BC4D130045C21B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MACircleProgressIndicator/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6483B18016BC33A100E105EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6483B18716BC33A100E105EC /* UIKit.framework in Frameworks */,
+				6483B18916BC33A100E105EC /* Foundation.framework in Frameworks */,
+				6483B18B16BC33A100E105EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6483B17A16BC33A100E105EC = {
+			isa = PBXGroup;
+			children = (
+				6483B18C16BC33A100E105EC /* MACircleProgressIndicator */,
+				6483B18516BC33A100E105EC /* Frameworks */,
+				6483B18416BC33A100E105EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6483B18416BC33A100E105EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6483B18316BC33A100E105EC /* MACircleProgressIndicator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6483B18516BC33A100E105EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6483B18616BC33A100E105EC /* UIKit.framework */,
+				6483B18816BC33A100E105EC /* Foundation.framework */,
+				6483B18A16BC33A100E105EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6483B18C16BC33A100E105EC /* MACircleProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				64FDDF5816BC4C8A0045C21B /* MACircleProgressIndicator.h */,
+				64FDDF5916BC4C8A0045C21B /* MACircleProgressIndicator.m */,
+				6483B1AF16BC343800E105EC /* Demo */,
+				6483B18D16BC33A100E105EC /* Supporting Files */,
+			);
+			name = MACircleProgressIndicator;
+			path = CircleProgressIndicator;
+			sourceTree = "<group>";
+		};
+		6483B18D16BC33A100E105EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64FDDF5F16BC4CCD0045C21B /* InfoPlist.strings */,
+				64FDDF6816BC4CDF0045C21B /* main.m */,
+				64FDDF6C16BC4D090045C21B /* MACircleProgressIndicator-Prefix.pch */,
+				64FDDF6A16BC4CF40045C21B /* MACircleProgressIndicator-Info.plist */,
+				64FDDF6D16BC4D130045C21B /* Default-568h@2x.png */,
+				64FDDF6E16BC4D130045C21B /* Default.png */,
+				64FDDF6F16BC4D130045C21B /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6483B1AF16BC343800E105EC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				64FDDF6116BC4CCD0045C21B /* MainStoryboard_iPad.storyboard */,
+				64FDDF6316BC4CCD0045C21B /* MainStoryboard_iPhone.storyboard */,
+				64FDDF5B16BC4CB50045C21B /* MAAppDelegate.h */,
+				64FDDF5C16BC4CB50045C21B /* MAAppDelegate.m */,
+				64FDDF5D16BC4CB50045C21B /* MAViewController.h */,
+				64FDDF5E16BC4CB50045C21B /* MAViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6483B18216BC33A100E105EC /* MACircleProgressIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6483B1A916BC33A100E105EC /* Build configuration list for PBXNativeTarget "MACircleProgressIndicator" */;
+			buildPhases = (
+				6483B17F16BC33A100E105EC /* Sources */,
+				6483B18016BC33A100E105EC /* Frameworks */,
+				6483B18116BC33A100E105EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MACircleProgressIndicator;
+			productName = CircleProgressIndicator;
+			productReference = 6483B18316BC33A100E105EC /* MACircleProgressIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6483B17B16BC33A100E105EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Manuel Alabor";
+			};
+			buildConfigurationList = 6483B17E16BC33A100E105EC /* Build configuration list for PBXProject "MACircleProgressIndicator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6483B17A16BC33A100E105EC;
+			productRefGroup = 6483B18416BC33A100E105EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6483B18216BC33A100E105EC /* MACircleProgressIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6483B18116BC33A100E105EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FDDF6516BC4CCD0045C21B /* InfoPlist.strings in Resources */,
+				64FDDF6616BC4CCD0045C21B /* MainStoryboard_iPad.storyboard in Resources */,
+				64FDDF6716BC4CCD0045C21B /* MainStoryboard_iPhone.storyboard in Resources */,
+				64FDDF7016BC4D130045C21B /* Default-568h@2x.png in Resources */,
+				64FDDF7116BC4D130045C21B /* Default.png in Resources */,
+				64FDDF7216BC4D130045C21B /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6483B17F16BC33A100E105EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ACEF9B16BC4E8F00446EBB /* MACircleProgressIndicator.m in Sources */,
+				64ACEF9C16BC4E8F00446EBB /* MAAppDelegate.m in Sources */,
+				64ACEF9D16BC4E8F00446EBB /* MAViewController.m in Sources */,
+				64FDDF6916BC4CDF0045C21B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64FDDF5F16BC4CCD0045C21B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FDDF6016BC4CCD0045C21B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64FDDF6116BC4CCD0045C21B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FDDF6216BC4CCD0045C21B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64FDDF6316BC4CCD0045C21B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64FDDF6416BC4CCD0045C21B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6483B1A716BC33A100E105EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6483B1A816BC33A100E105EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6483B1AA16BC33A100E105EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MACircleProgressIndicator/MACircleProgressIndicator-Prefix.pch";
+				INFOPLIST_FILE = "MACircleProgressIndicator/MACircleProgressIndicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = MACircleProgressIndicator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6483B1AB16BC33A100E105EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MACircleProgressIndicator/MACircleProgressIndicator-Prefix.pch";
+				INFOPLIST_FILE = "MACircleProgressIndicator/MACircleProgressIndicator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = MACircleProgressIndicator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6483B17E16BC33A100E105EC /* Build configuration list for PBXProject "MACircleProgressIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6483B1A716BC33A100E105EC /* Debug */,
+				6483B1A816BC33A100E105EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6483B1A916BC33A100E105EC /* Build configuration list for PBXNativeTarget "MACircleProgressIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6483B1AA16BC33A100E105EC /* Debug */,
+				6483B1AB16BC33A100E105EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6483B17B16BC33A100E105EC /* Project object */;
+}
