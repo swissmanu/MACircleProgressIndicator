@@ -2,6 +2,8 @@
 ## Overview
 `MACircleProgressIndicator` is a progress indicator view for iOS 5 or newer.
 
+![Screenshot](https://raw.github.com/swissmanu/MACircleProgressIndicator/master/screenshot.png)
+
 ## Installation
 The easiest way to install `MACircleProgressIndicator` is using [CocoaPods](http://cocoapods.org/). Add the following dependency to your `Podfile` and run the `pod install` command via command line:
 
