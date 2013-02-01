@@ -16,7 +16,8 @@ To update the displayed progress, just pass a float value between 0.0 to 1.0 to 
 
 ```objective-c
 MACircleProgressIndicator *indicator = [[MACircleProgressIndicator alloc] initWithFrame:CGRectMake(0, 0, 42, 42)];
-indicator.value = 0.5;```
+indicator.value = 0.5;
+```
 
 ## Customization & Demo
 The view is customizable using direct property assignments or the appearance object:
@@ -35,6 +36,7 @@ appearance.color = [UIColor whiteColor];
 // If you set the strokeWidthRatio, the width of the
 // circle stroke gets calculated related to the actual
 // size of the MACircleProgressIndicator view.
-//appearance.strokeWidthRatio = 0.15; // default```
+//appearance.strokeWidthRatio = 0.15; // default ratio, just for information :)
+```
 
 Clone the repository and you'll have a running demonstration app ready on your machine: Open `CircleProgressIndicator.xcodeproj` with Xcode and run the App in the iPhone or iPad simulator.
