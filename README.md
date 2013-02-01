@@ -26,6 +26,6 @@ The view is customizable using direct property assignments or the appearance obj
 	// If you set the strokeWidthRatio, the width of the
 	// circle stroke gets calculated related to the actual
 	// size of the MACircleProgressIndicator view.
-	//appearance.strokeWidthRatio = 0.15; // default``
+	//appearance.strokeWidthRatio = 0.15; // default```
 
 Clone the repository and you'll have a running demonstration app ready on your machine: Open `CircleProgressIndicator.xcodeproj` with Xcode and run the App in the iPhone or iPad simulator.
