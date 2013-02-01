@@ -9,7 +9,7 @@ The easiest way to install `MACircleProgressIndicator` is using [CocoaPods](http
 
 	pod 'MACircleProgressIndicator', '~> 1.0.0'
 
-If you'd like to install without CocoaPods, clone this repository and extract `MACircleProgressIndicator.h` and `MACircleProgressIndicator.m` from the `CircleProgressIndicator` folder and copy them into your project.
+If you'd like to install without CocoaPods, clone this repository and extract `MACircleProgressIndicator.h` and `MACircleProgressIndicator.m` from the `MACircleProgressIndicator/` subfolder and copy them into your project.
 
 ## Usage
 To update the displayed progress, just pass a float value between 0.0 to 1.0 to the `value` property:
