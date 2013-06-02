@@ -93,11 +93,14 @@
     CGContextSetLineWidth(ctx, lineWidth);
     CGContextSetLineCap(ctx, kCGLineCapRound);
     
-    // "Full" Background Circle:
-    CGContextBeginPath(ctx);
-    CGContextAddArc(ctx, 0, 0, radius, 0, 2*M_PI, 0);
-    CGContextSetStrokeColorWithColor(ctx, [_color colorWithAlphaComponent:0.1].CGColor);
-    CGContextStrokePath(ctx);
+    if (self.hideEmptyProgressBar == YES)
+    {
+        // Empty progress bar circle:
+        CGContextBeginPath(ctx);
+        CGContextAddArc(ctx, 0, 0, radius, 0, 2*M_PI, 0);
+        CGContextSetStrokeColorWithColor(ctx, [_color colorWithAlphaComponent:0.1].CGColor);
+        CGContextStrokePath(ctx);
+    }
     
     // Progress Arc:
     CGContextBeginPath(ctx);

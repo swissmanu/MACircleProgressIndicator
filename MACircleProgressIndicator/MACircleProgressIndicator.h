@@ -30,4 +30,10 @@
  */
 @property (nonatomic) CGFloat strokeWidth UI_APPEARANCE_SELECTOR;
 
+/**
+ If you'd like the hide the empty proress bar.
+ @param hideEmptyProgressBar The defualt value is NO. Set YES when you'd like to hide the empty progress. 
+ */
+@property (nonatomic) BOOL hideEmptyProgressBar;
+
 @end
